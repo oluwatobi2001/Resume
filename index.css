@@ -1,0 +1,67 @@
+.header {
+    height: 40vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+margin: 0 auto;
+width: 90%;
+}
+.profile, .Skills,  .Certificates, .Projects {
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+flex-direction: column;
+line-height: 0.5cm;
+}
+.profile > h2 {
+    display: flex;
+
+}
+.profile > p {
+font-size: 20px;
+}
+li {
+    font-size: 20px; 
+    line-height: 0.8cm; 
+}
+.Projects > p {
+    font-size: 20px;
+}
+a {
+    list-style-type: none;
+    list-style: none;
+    color: inherit;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icons > a {
+    font-size: 20px;
+}
+.visitors {
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+#visitorCount {
+    display: inline-block;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
